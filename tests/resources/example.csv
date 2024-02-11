@@ -1,0 +1,11 @@
+Name,Salary,Height,IsMarried,DOB,InsertionTimestamp
+John Doe,75000,6.1,True,1985-05-20,2022-08-15 12:45:30
+John Doe,62000,5.6,True,1990-02-15,2022-08-15 14:30:45
+Robert Johnson,85000,5.10,False,1982-11-10,2022-08-15 16:18:20
+Emily Davis,50000,5.4,False,1995-08-22,2022-08-15 18:03:10
+Michael Brown,95000,6.2,True,1978-04-30,2022-08-15 20:22:55
+Sophia Lee,70000,5.8,True,1989-07-12,2022-08-15 22:10:40
+David Miller,,5.11,False,1992-12-05,2022-08-16 00:25:15
+Olivia Wilson,80000,,True,1980-09-18,2022-08-16 02:45:30
+Daniel Taylor,72000,5.9,False,1987-03-25,2022-08-16 04:30:45
+Ava Harris,89000,6.0,True,1983-06-08,2022-08-16 06:18:20

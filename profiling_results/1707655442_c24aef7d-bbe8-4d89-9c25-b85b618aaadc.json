@@ -1,0 +1,99 @@
+{
+    "input_file_path": "/Users/damiandymkowski/Desktop/Code/Personal/profilek/fake_dataset.csv",
+    "columns": [
+        "Name",
+        "Salary",
+        "Height",
+        "IsMarried",
+        "DOB",
+        "InsertionTimestamp"
+    ],
+    "rows_count": 10000000,
+    "start_time": 1707655442,
+    "end_time": 1707655450,
+    "run_id": "c24aef7d-bbe8-4d89-9c25-b85b618aaadc",
+    "results": [
+        {
+            "Average string length": 13.2742367,
+            "Kurtosis string length": 0.9516817247327931,
+            "Maximum string length": 30,
+            "Minimum string length": 5,
+            "Nulls count": 0,
+            "Quantile 0.25 string length": 12.0,
+            "Quantile 0.50 string length": 13.0,
+            "Quantile 0.75 string length": 15.0,
+            "Quantile 0.99 string length": 20.0,
+            "Standard deviation string length": 2.2908840339895153,
+            "Uniques count": 925408,
+            "Column details": {
+                "Column name": "Name",
+                "Column type": "String",
+                "Profile Name": "StringProfile"
+            }
+        },
+        {
+            "Average": 89991.2092083,
+            "Kurtosis": -1.2000997235739934,
+            "Maximum": 150000,
+            "Minimum": 30000,
+            "Nulls count": 0,
+            "Quantile 0.25": 59985.0,
+            "Quantile 0.50": 89996.0,
+            "Quantile 0.75": 119987.0,
+            "Quantile 0.99": 148796.0,
+            "Standard deviation": 34644.299025281136,
+            "Uniques count": 120001,
+            "Column details": {
+                "Column name": "Salary",
+                "Column type": "Int64",
+                "Profile Name": "NumericProfile"
+            }
+        },
+        {
+            "Average": 5.9995245933532715,
+            "Kurtosis": -1.199739558095431,
+            "Maximum": 7.5,
+            "Minimum": 4.5,
+            "Nulls count": 0,
+            "Quantile 0.25": 5.25,
+            "Quantile 0.50": 6.0,
+            "Quantile 0.75": 6.75,
+            "Quantile 0.99": 7.46999979019165,
+            "Standard deviation": 0.8660318851470947,
+            "Uniques count": 301,
+            "Column details": {
+                "Column name": "Height",
+                "Column type": "Float32",
+                "Profile Name": "NumericProfile"
+            }
+        },
+        {
+            "Nulls count": 0,
+            "Uniques count": 2,
+            "Column details": {
+                "Column name": "IsMarried",
+                "Column type": "Boolean",
+                "Profile Name": "BaseProfile"
+            }
+        },
+        {
+            "Nulls count": 0,
+            "test plugin metric": 10000000,
+            "Uniques count": 26662,
+            "Column details": {
+                "Column name": "DOB",
+                "Column type": "Date",
+                "Profile Name": "TestPluginProfile"
+            }
+        },
+        {
+            "Nulls count": 0,
+            "Uniques count": 9999997,
+            "Column details": {
+                "Column name": "InsertionTimestamp",
+                "Column type": "Datetime",
+                "Profile Name": "BaseProfile"
+            }
+        }
+    ]
+}

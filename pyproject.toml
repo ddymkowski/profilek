@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "profilek"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+polars = "^0.20.7"
+ipykernel = "^6.29.0"
+faker = "^22.7.0"
+pandas = "^2.2.0"
+pyaml = "^23.12.0"
+ruff = "^0.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.1.1"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+
+[tool.black]
+line-length = 119
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.env
+  | \.venv
+  | venv
+  | env
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+line_length = 119
+lines_after_imports = 2
+profile = "black"

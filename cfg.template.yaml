@@ -1,0 +1,15 @@
+loader_options:
+  dtypes:
+    Name: String
+    Salary: Int64
+    Height: Float32
+    IsMarried: Boolean
+    DOB: Date
+    InsertionTimestamp: Datetime
+
+plugins:
+  path: plugins
+  mapping:
+    - type: Date
+      class: TestPluginProfile
+  
